@@ -7,11 +7,6 @@ public class Cat extends Animal {
     }
 
     @Override
-    public String toString() {
-        return "Cat" + super.toString();
-    }
-
-    @Override
     public String getSound() {
         return "meow";
     }
@@ -19,5 +14,10 @@ public class Cat extends Animal {
     @Override
     public boolean canFly() {
         return false;
+    }
+
+    @Override
+    public String toString() {
+        return "Cat" + super.toString();
     }
 }

@@ -7,11 +7,6 @@ public class Bird extends Animal {
     }
 
     @Override
-    public String toString() {
-        return "Bird" + super.toString();
-    }
-
-    @Override
     public String getSound() {
         return "chirp";
     }
@@ -19,5 +14,10 @@ public class Bird extends Animal {
     @Override
     public boolean canFly() {
         return true;
+    }
+
+    @Override
+    public String toString() {
+        return "Bird" + super.toString();
     }
 }
