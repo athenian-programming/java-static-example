@@ -16,14 +16,14 @@ public class Dog {
     }
 
     public static void main(String[] args) {
-        System.out.println("Breed count: " + Dog.dogCount);
+        System.out.println("Dog count: " + Dog.dogCount);
 
         Dog poodle = new Dog("poodle");
-        System.out.println("Breed count: " + Dog.dogCount);
+        System.out.println("Dog count: " + Dog.dogCount);
 
         Dog pug = new Dog("pug");
         Dog beagle = new Dog("beagle");
-        System.out.println("Breed count: " + Dog.dogCount);
+        System.out.println("Dog count: " + Dog.dogCount);
 
         System.out.println("All dogs: " + Dog.dogMap);
     }
